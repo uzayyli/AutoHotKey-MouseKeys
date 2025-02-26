@@ -36,9 +36,9 @@ Numpad0::{ ; Hold / Release LMB
 
 NumpadDot::{ ; Hold / Release RMB
 	if(GetKeyState("RButton")){
-		Click "Down Right"
-	}else{
 		Click "Up Right"
+	}else{
+		Click "Down Right"
 	}
 }
 
