@@ -6,6 +6,7 @@ AutoHotKey alternative to Windows Mouse Keys, use your mouse with NumPad keys. I
 - The script is written with AutoHotKey v2.0.19
 - I'm new to AHK scripting, so I may be doing some rookie mistakes. Will probably push more updates
 - For most of the functionaliy to work, you want NumLock to be ON
+- It does not work with programs that are running as admin (See [FAQ](https://www.autohotkey.com/docs/v1/FAQ.htm#uac)). In that case, either run the program as non-admin or use the script as admin
 
 # TODO
 Possible future updates:
@@ -14,7 +15,7 @@ Possible future updates:
 - Implement smooth cursor movement (acceleration, damping etc)
 
 # Related Projects
-There are similar software out there but none of them have the functionality I need. Still it can be useful to someone:
+There are similar software out there but none of them have the full functionality I needed. Still, they can be useful:
 - [Mouse Keys](https://support.microsoft.com/en-us/windows/use-mouse-keys-to-move-the-mouse-pointer-9e0c72c8-b882-7918-8e7b-391fd62adf33) (Windows built-in feature)
   - ❌ The "click" key only clicks once and does not hold the button
   - ❌ Too much work switching between left / right clicks
