@@ -6,7 +6,7 @@ AutoHotKey alternative to Windows Mouse Keys, use your mouse with NumPad keys. I
 - The script is written with AutoHotKey v2.0.19
 - I'm new to AHK scripting, so I may be doing some rookie mistakes. Will probably push more updates
 - For most of the functionaliy to work, you want NumLock to be ON
-- It does not work with programs that are running as admin (See [FAQ](https://www.autohotkey.com/docs/v1/FAQ.htm#uac)). In that case, either run the program as non-admin or use the script as admin
+- It does not work with programs that are running as admin (See [FAQ](https://www.autohotkey.com/docs/v1/FAQ.htm#uac)). In that case, either run the program as non-admin or use the AHK script as admin. You can also run the script with `AutoHotkey64_UIA.exe` instead of `AutoHotkey64.exe`
 
 # TODO
 Possible future updates:
